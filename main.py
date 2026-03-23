@@ -64,9 +64,6 @@ for query in queries:
     if not running:
         break
     
-    pyautogui.click(235,75)
-    time.sleep(2)
-    pyautogui.press("del")
 
     print("Typing:", query)
 
